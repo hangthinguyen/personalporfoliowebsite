@@ -1,0 +1,36 @@
+.home-page-container, .home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-container {
+    background-color: rgb(255, 255, 255, 40%);
+    width: 50vw;
+    height: 29vw;
+    border-radius: 2rem;
+    box-shadow: 0 0 40px rgb(0 0 0 / 30%);
+}
+
+.home-page-content {
+    line-height: 1.8;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-me-btn {
+    padding: 1.2em 2.2em;
+    margin: 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: #84c5ff;
+    color: white;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.about-me-btn:hover {
+    background-color: #6ab8fc;
+    cursor: pointer;
+}
