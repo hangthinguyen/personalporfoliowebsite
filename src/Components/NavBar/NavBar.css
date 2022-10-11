@@ -1,0 +1,32 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+
+    animation: slide-in .5s ease-in;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #9CA6FF;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,19 +1,17 @@
-import { Link } from 'react-router-dom';
 import HomePage from './Components/HomePage/HomePage';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
 
-      <HomePage />
+      <div className='home-page-content-container'>
+        <HomePage />
+      </div>
 
-      <div>
-        <Link to="/Home">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Services">Services</Link>
-        <Link to="/Portfolio">Portfolio</Link>
-        <Link to="/ContactMe">ContactMe</Link>
+      <div className='navbar-position'>
+        <NavBar />
       </div>
 
     </div>
