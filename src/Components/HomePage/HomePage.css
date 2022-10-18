@@ -11,27 +11,59 @@
     height: 50%;
     border-radius: 2rem;
     box-shadow: 0 0 40px rgb(0 0 0 / 30%);
+    transition: background-color 0.4s ease-in-out;
+}
+
+.home-page-container:hover {
+    background-color: rgb(255, 255, 255, 50%);
+    box-shadow: 0 0 40px rgb(0 0 0 / 40%);;
 }
 
 .home-page-content {
     line-height: 1.8;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 900;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .about-me-btn {
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.2rem;
     margin: 0.5em;
     border-radius: 2rem;
     border: none;
     background-color: #84c5ff;
     color: white;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .about-me-btn:hover {
     background-color: #6ab8fc;
     cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .home-page-container {
+        width: 57%;
+        height: 41%;
+    }
+
+    .home-page-content {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-page-container {
+        width: 40%;
+        height: 55%;
+    }
+
+    .home-page-content {
+        font-size: 1.3rem;
+    }
+
+    .about-me-btn {
+        padding: 0.8rem 1rem;
+    }
 }

@@ -1,0 +1,95 @@
+.profile-pic {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    margin: 15px;
+    z-index: 10;
+    transform: rotate(-44deg);
+}
+
+.profile-pic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-profile-pic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+    gap: 35px;
+}
+
+.text-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.skills-section-directed-btn {
+    background-color: #c67df3;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5em;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.skills-section-directed-btn:hover {
+    background-color: #c373f5;
+    cursor: pointer;
+}
+
+.text-btn-container p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.pic-background1 {
+    height: 50vw;
+    width: 50vw;
+    background-color: rgb(238, 165, 177, 0.5);
+    border-radius: 2rem;
+    transform: rotate(22deg);
+    z-index: 1;
+}
+
+.pic-background2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 2rem;
+    transform: rotate(22deg);
+    background-color: rgb(186, 225, 249, 0.6);
+}
+
+@media (min-width: 768px) {
+    .pic-background1, .pic-background2 {
+        height: 28vw;
+        width: 28vw;
+    }
+
+    .intro-profile-pic-container {
+        flex-direction: row;
+        gap: 150px;
+        padding: 0 110px;
+    }
+
+    .about-me-text {
+        font-size: 2rem;
+        color: white;
+    }
+}

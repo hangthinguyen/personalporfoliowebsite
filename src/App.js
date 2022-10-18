@@ -4,9 +4,9 @@ import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
 
-      <div className='home-page-content-container'>
+      <div className='content-container'>
         <HomePage />
       </div>
 

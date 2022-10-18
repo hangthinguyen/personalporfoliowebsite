@@ -1,0 +1,124 @@
+.skills-box, .service-box {
+    width: 75vw;
+    height: 55vw;
+    background-color: rgb(200, 178, 251, 0.7);
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    transition: all 0.1s ease-in-out;
+}
+
+.skills-box:hover, .service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.skills-service-boxes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.skills-collumns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.service-box p {
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.check-icon {
+    padding-right: 10px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 1.2;
+}
+
+@media (min-width: 768px) {
+    .skills-service-boxes-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .service-box {
+        width: 46vw;
+        height: 30vw;
+        font-size: 1rem;
+    }
+
+    .skills-box {
+        width: 34vw;
+        height: 17vw;
+    }
+
+    .service-section-container {
+        gap: 3rem;
+    }
+
+    .skills-list {
+        padding: 3rem;
+    }
+
+    .service-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+   .service-box {
+        width: 75vw;
+        height: 79vw;
+    }
+
+    .service-section-container {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .service-box {
+        width: 39vw;
+        height: 23vw;
+    }
+
+    .skills-box {
+        padding: 2.5rem;
+    }
+
+    .skills-service-boxes-container {
+        gap: 4rem;
+    }
+}
