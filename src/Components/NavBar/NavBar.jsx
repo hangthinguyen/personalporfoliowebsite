@@ -45,7 +45,7 @@ export default function NavBar() {
                     key={routeLink.id}
                     className='navbar-item'
                     style={{
-                        backgroundColor: location.pathname === routeLink.rLink ? 'purple' : null,
+                        backgroundColor: location.pathname === routeLink.rLink ? 'rgb(0, 0, 0, 0.1)' : null,
                     }}
                 >
                     {routeLink.icon}
