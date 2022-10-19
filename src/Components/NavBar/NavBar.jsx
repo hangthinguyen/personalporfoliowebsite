@@ -1,52 +1,57 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faEnvelope, faHouse, faList, faUser } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 
 export default function NavBar() {
-    const [backgroundColor, setBackgroundColor] = useState('')
+    const location = useLocation();
 
-    const handleBackgroundColor = useCallback(() => {
-        setBackgroundColor('gray')
-        console.log('heello')
-    },[])
+    const [routeLinks] = useState([
+        {
+            rLink: '/Home',
+            id: '1',
+            icon: <FontAwesomeIcon icon={faHouse} className='navbar-icon'/>
+        },
+        {
+            rLink: '/About',
+            id: '2',
+            icon: <FontAwesomeIcon icon={faUser} />
+        },
+        {
+            rLink: '/Services',
+            id: '3',
+            icon: <FontAwesomeIcon icon={faList} />
+        },
+        {
+            rLink: '/Portfolio',
+            id: '4',
+            icon: <FontAwesomeIcon icon={faBriefcase} />
+        },
+        {
+            rLink: '/ContactMe',
+            id: '5',
+            icon: <FontAwesomeIcon icon={faEnvelope} />
+        },
+    ]);
+
     return (
         <div className='navbar-container'>
 
-            <Link to="/Home"
-                className='navbar-item'
-                onClick={handleBackgroundColor}
-                style={{
-                    backgroundColor: backgroundColor,
-                }}
-            >
-                <FontAwesomeIcon icon={faHouse} className='navbar-icon'/>
-            </Link>
+            {routeLinks.map((routeLink) =>
+                <Link
+                    to={routeLink.rLink}
+                    id={routeLink.id}
+                    key={routeLink.id}
+                    className='navbar-item'
+                    style={{
+                        backgroundColor: location.pathname === routeLink.rLink ? 'purple' : null,
+                    }}
+                >
+                    {routeLink.icon}
+                </Link>)
+            }
 
-            <Link to="/About" className='navbar-item' id = '1' onClick={handleBackgroundColor} style={{
-                    backgroundColor: backgroundColor,
-                }}>
-                <FontAwesomeIcon icon={faUser} />
-            </Link>
-
-            <Link to="/Services" className='navbar-item' id = '2' onClick={handleBackgroundColor} style={{
-                    backgroundColor: backgroundColor,
-                }}>
-                <FontAwesomeIcon icon={faList} />
-            </Link>
-
-            <Link to="/Portfolio" className='navbar-item' id = '3' onClick={handleBackgroundColor} style={{
-                    backgroundColor: backgroundColor,
-                }}>
-                <FontAwesomeIcon icon={faBriefcase} />
-            </Link>
-
-            <Link to="/ContactMe" className='navbar-item' id = '4' onClick={handleBackgroundColor} style={{
-                    backgroundColor: backgroundColor,
-                }}>
-                <FontAwesomeIcon icon={faEnvelope} />
-            </Link>
       </div>
     )
 }
