@@ -1,4 +1,4 @@
-import HomePage from './Components/HomePage/HomePage';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 
@@ -7,7 +7,7 @@ function App() {
     <div className="page-container">
 
       <div className='content-container'>
-        <HomePage />
+        <Outlet />
       </div>
 
       <div className='navbar-position'>

@@ -27,7 +27,7 @@
 }
 
 .header {
-    margin-top: 70px;
+    margin-top: 55px;
     margin-bottom: 40px;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -37,7 +37,7 @@
 
 .skills-section-directed-btn {
     background-color: #c67df3;
-    padding: 0.6rem 1.2rem;
+    padding: 0.8rem 1.4rem;
     margin: 0.5em;
     border-radius: 2rem;
     border: none;

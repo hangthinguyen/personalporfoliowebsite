@@ -10,21 +10,23 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import ContactMe from './Components/ContactMe/ContactMe';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-toastify/dist/ReactToastify.css';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/Home" element={<App />} />
-        <Route path="/Home" element={<HomePage />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="ContactMe" element={<ContactMe />} />
+        <Route path="/" element={<App />}>
+          <Route index path="Home" element={<HomePage />} />
+          <Route path="About" element={<About />} />
+          <Route path="Services" element={<Services />} />
+          <Route path="Portfolio" element={<Portfolio />} />
+          <Route path="ContactMe" element={<ContactMe />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

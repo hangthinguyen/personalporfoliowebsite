@@ -1,18 +1,14 @@
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import NavBar from '../NavBar/NavBar';
 import './Services.css';
 
 export default function Services() {
     return (
         <div className='page-container'>
-
             <div className='content-container'>
-
                 <h3 className='header'>Services</h3>
 
                 <div className='service-section-container'>
-
                     <div className='skills-service-boxes-container'>
 
                         <section className='skills-box'>
@@ -57,10 +53,6 @@ export default function Services() {
 
                 </div>
 
-            </div>
-
-            <div className='navbar-position'>
-                <NavBar />
             </div>
         </div>
     )

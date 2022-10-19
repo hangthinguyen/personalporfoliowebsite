@@ -1,7 +1,6 @@
 .navbar-container {
     display: flex;
     justify-content: center;
-
     animation: slide-in 1s ease-in;
 }
 
