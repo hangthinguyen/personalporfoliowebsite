@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -27,7 +27,7 @@ export default function ContactMe() {
     return (
         <div className='page-container'>
             <div className='content-container'>
-                <h3 className='header contact-me-header'>Contact Me</h3>
+                <h1 className='header'>Contact Me</h1>
 
                 <div className='contact-content'>
 

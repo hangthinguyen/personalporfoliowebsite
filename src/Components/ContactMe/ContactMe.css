@@ -39,7 +39,7 @@
 .contact-content {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 
@@ -90,21 +90,13 @@
     border-radius: 20px;
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .submit-btn:hover {
     cursor: pointer;
     background-color: rgb(86, 86, 247);
 }
-
-
-@media (max-width: 425px) {
-    .contact-me-header {
-        margin-bottom: 0;
-        margin-top:70px;
-    }
-}
-
 
 @media (min-width: 768px) {
     .contact-content {

@@ -6,7 +6,7 @@ export default function Services() {
     return (
         <div className='page-container'>
             <div className='content-container'>
-                <h3 className='header'>Services</h3>
+                <h1 className='header'>Services</h1>
 
                 <div className='service-section-container'>
                     <div className='skills-service-boxes-container'>
@@ -46,7 +46,7 @@ export default function Services() {
                             <div className='service-title'>
                                 Font-end web development
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae enim esse delectus quis. Eaque laudantium esse odit dolorem ullam eius sit sint labore, ea pariatur? Suscipit harum ab ipsum!</p>
+                            <p>I am a self-taught web developer based in California. My interests are in Front End Engineering, and I love to create beautiful, responsive and performant products with delightful user experiences</p>
                         </section>
 
                     </div>

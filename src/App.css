@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   animation: slide-right 0.4s ease-in-out;
 }
 
@@ -15,7 +15,7 @@
   justify-content: flex-end;
   width: 100%;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .navbar-position {

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import ProfilePic from '../../assets/profilepic.jpeg'
+import ProfilePic from '../../assets/myprofilepic.JPG'
 import './About.css';
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
 
             <div className='content-container'>
 
-                <h3 className='header'>About Me</h3>
+                <h1 className='header'>About Me</h1>
                 <div className='intro-profile-pic-container'>
 
                     <div className='profile-pic-container'>
@@ -20,10 +20,11 @@ export default function About() {
                     </div>
 
                     <div className='text-btn-container'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quae enim esse delectus quis. Eaque laudantium esse odit dolorem ullam eius sit sint labore, ea pariatur? Suscipit harum ab ipsum!</p>
+                        <h3 className='introduction-header'>Hello! My name is Hannie Nguyen</h3>
+                        <p>I am a web developer. I would love to bring your design into life, turn it into a gorgeous and functional website. I value honesty and empathy. These principles guide me through life and work.</p>
                         <Link to='/Services'>
                             <button className='skills-section-directed-btn'>
-                                What I offer
+                                Services I offer
                             </button>
                         </Link>
                     </div>

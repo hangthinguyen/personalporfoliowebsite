@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0 3rem;
-    gap: 35px;
+    gap: 10px;
 }
 
 .text-btn-container {
@@ -27,23 +27,24 @@
 }
 
 .header {
-    margin-top: 55px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     color: white;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     letter-spacing: 1px;
     font-size: 2rem;
 }
 
 .skills-section-directed-btn {
     background-color: #c67df3;
-    padding: 0.8rem 1.4rem;
+    padding: 0.8rem 1.2rem;
     margin: 0.5em;
     border-radius: 2rem;
     border: none;
     color: white;
     font-weight: 900;
     font-size: 1rem;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .skills-section-directed-btn:hover {
@@ -53,7 +54,8 @@
 
 .text-btn-container p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .pic-background1 {
@@ -76,6 +78,12 @@
     background-color: rgb(186, 225, 249, 0.6);
 }
 
+.introduction-header {
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .pic-background1, .pic-background2 {
         height: 28vw;
@@ -84,12 +92,20 @@
 
     .intro-profile-pic-container {
         flex-direction: row;
-        gap: 150px;
+        gap: 110px;
         padding: 0 110px;
     }
 
     .about-me-text {
         font-size: 2rem;
         color: white;
+    }
+
+    .text-btn-container p {
+        font-size: 1.2rem;
+    }
+
+    .introduction-header {
+        font-size: 1.4rem;
     }
 }
