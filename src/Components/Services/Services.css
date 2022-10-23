@@ -1,6 +1,6 @@
 .skills-box, .service-box {
     width: 75vw;
-    height: 55vw;
+    height: 70vw;
     background-color: rgb(200, 178, 251, 0.7);
     font-weight: 700;
     border-radius: 10px;
@@ -111,7 +111,7 @@
 @media (min-width: 1000px) {
     .service-box {
         width: 37vw;
-        height: 20vw;
+        height: 21vw;
     }
 
     .skills-box {
