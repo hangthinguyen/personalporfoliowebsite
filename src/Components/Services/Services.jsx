@@ -6,7 +6,7 @@ export default function Services() {
     return (
         <div className='page-container'>
             <div className='content-container'>
-                <h1 className='header'>Services</h1>
+                <h1 className='header'>Skills</h1>
 
                 <div className='service-section-container'>
                     <div className='skills-service-boxes-container'>

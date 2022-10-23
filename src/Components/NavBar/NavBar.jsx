@@ -9,27 +9,27 @@ export default function NavBar() {
 
     const [routeLinks] = useState([
         {
-            rLink: '/personalporfoliowebsite/Home',
+            rLink: '/',
             id: '1',
             icon: <FontAwesomeIcon icon={faHouse} className='navbar-icon'/>
         },
         {
-            rLink: '/personalporfoliowebsite/About',
+            rLink: '/About',
             id: '2',
             icon: <FontAwesomeIcon icon={faUser} />
         },
         {
-            rLink: '/personalporfoliowebsite/Services',
+            rLink: '/Services',
             id: '3',
             icon: <FontAwesomeIcon icon={faList} />
         },
         {
-            rLink: '/personalporfoliowebsite/Portfolio',
+            rLink: '/Portfolio',
             id: '4',
             icon: <FontAwesomeIcon icon={faBriefcase} />
         },
         {
-            rLink: '/personalporfoliowebsite/ContactMe',
+            rLink: '/ContactMe',
             id: '5',
             icon: <FontAwesomeIcon icon={faEnvelope} />
         },

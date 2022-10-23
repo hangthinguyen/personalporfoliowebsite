@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import ProfilePic from '../../assets/myprofilepic.JPG'
+import ProfilePic from '../../assets/progressiveprofilepic.jpeg';
 import './About.css';
 
 export default function About() {
@@ -24,7 +24,7 @@ export default function About() {
                         <p>I am a web developer. I would love to bring your design into life, turn it into a gorgeous and functional website. I value honesty and empathy. These principles guide me through life and work.</p>
                         <Link to='/Services'>
                             <button className='skills-section-directed-btn'>
-                                Services I offer
+                                Check out my skills
                             </button>
                         </Link>
                     </div>
