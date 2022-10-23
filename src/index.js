@@ -20,12 +20,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
-          <Route index path="/Home" element={<HomePage />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/ContactMe" element={<ContactMe />} />
+        <Route path="/personalporfoliowebsite" element={<App />}>
+          <Route index path="/personalporfoliowebsite/Home" element={<HomePage />} />
+          <Route path="/personalporfoliowebsite/About" element={<About />} />
+          <Route path="/personalporfoliowebsite/Services" element={<Services />} />
+          <Route path="/personalporfoliowebsite/Portfolio" element={<Portfolio />} />
+          <Route path="/personalporfoliowebsite/ContactMe" element={<ContactMe />} />
         </Route>
       </Routes>
     </BrowserRouter>
