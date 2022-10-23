@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalporfoliowebsite/static/css/main.29fffd73.css",
-    "main.js": "/personalporfoliowebsite/static/js/main.b644999a.js",
+    "main.css": "/personalporfoliowebsite/static/css/main.e2c0368f.css",
+    "main.js": "/personalporfoliowebsite/static/js/main.67cec6d2.js",
     "static/js/787.e438c82f.chunk.js": "/personalporfoliowebsite/static/js/787.e438c82f.chunk.js",
     "static/media/netflixcopy-progressive.jpeg": "/personalporfoliowebsite/static/media/netflixcopy-progressive.b4d4b42e4d2416ebd000.jpeg",
     "static/media/background.png": "/personalporfoliowebsite/static/media/background.f50c97d70de394540ddc.png",
@@ -11,12 +11,12 @@
     "static/media/twitterclone-progressive.jpeg": "/personalporfoliowebsite/static/media/twitterclone-progressive.d0d89b419a37d14c6ab0.jpeg",
     "static/media/todoapp-progressive.jpeg": "/personalporfoliowebsite/static/media/todoapp-progressive.fb8d0bb7738904a32ff7.jpeg",
     "index.html": "/personalporfoliowebsite/index.html",
-    "main.29fffd73.css.map": "/personalporfoliowebsite/static/css/main.29fffd73.css.map",
-    "main.b644999a.js.map": "/personalporfoliowebsite/static/js/main.b644999a.js.map",
+    "main.e2c0368f.css.map": "/personalporfoliowebsite/static/css/main.e2c0368f.css.map",
+    "main.67cec6d2.js.map": "/personalporfoliowebsite/static/js/main.67cec6d2.js.map",
     "787.e438c82f.chunk.js.map": "/personalporfoliowebsite/static/js/787.e438c82f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29fffd73.css",
-    "static/js/main.b644999a.js"
+    "static/css/main.e2c0368f.css",
+    "static/js/main.67cec6d2.js"
   ]
 }
