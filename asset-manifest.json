@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hangthinguyen.github.io/personalporfoliowebsite/static/css/main.c56e7609.css",
-    "main.js": "/hangthinguyen.github.io/personalporfoliowebsite/static/js/main.3ac90396.js",
-    "static/js/787.e438c82f.chunk.js": "/hangthinguyen.github.io/personalporfoliowebsite/static/js/787.e438c82f.chunk.js",
-    "static/media/netflixcopy-progressive.jpeg": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/netflixcopy-progressive.b4d4b42e4d2416ebd000.jpeg",
-    "static/media/background.png": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/background.f50c97d70de394540ddc.png",
-    "static/media/myprofilepic.JPG": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/myprofilepic.df55fac2c4943044a9a3.JPG",
-    "static/media/spotifyclone-progressive.jpeg": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/spotifyclone-progressive.425310d74b798ab6694b.jpeg",
-    "static/media/loginpage-progressive.jpeg": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/loginpage-progressive.65ca77fd1c6adb86b4d6.jpeg",
-    "static/media/twitterclone-progressive.jpeg": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/twitterclone-progressive.d0d89b419a37d14c6ab0.jpeg",
-    "static/media/todoapp-progressive.jpeg": "/hangthinguyen.github.io/personalporfoliowebsite/static/media/todoapp-progressive.fb8d0bb7738904a32ff7.jpeg",
-    "index.html": "/hangthinguyen.github.io/personalporfoliowebsite/index.html",
-    "main.c56e7609.css.map": "/hangthinguyen.github.io/personalporfoliowebsite/static/css/main.c56e7609.css.map",
-    "main.3ac90396.js.map": "/hangthinguyen.github.io/personalporfoliowebsite/static/js/main.3ac90396.js.map",
-    "787.e438c82f.chunk.js.map": "/hangthinguyen.github.io/personalporfoliowebsite/static/js/787.e438c82f.chunk.js.map"
+    "main.css": "/personalporfoliowebsite/static/css/main.29fffd73.css",
+    "main.js": "/personalporfoliowebsite/static/js/main.b644999a.js",
+    "static/js/787.e438c82f.chunk.js": "/personalporfoliowebsite/static/js/787.e438c82f.chunk.js",
+    "static/media/netflixcopy-progressive.jpeg": "/personalporfoliowebsite/static/media/netflixcopy-progressive.b4d4b42e4d2416ebd000.jpeg",
+    "static/media/background.png": "/personalporfoliowebsite/static/media/background.f50c97d70de394540ddc.png",
+    "static/media/myprofilepic.JPG": "/personalporfoliowebsite/static/media/myprofilepic.df55fac2c4943044a9a3.JPG",
+    "static/media/spotifyclone-progressive.jpeg": "/personalporfoliowebsite/static/media/spotifyclone-progressive.425310d74b798ab6694b.jpeg",
+    "static/media/loginpage-progressive.jpeg": "/personalporfoliowebsite/static/media/loginpage-progressive.65ca77fd1c6adb86b4d6.jpeg",
+    "static/media/twitterclone-progressive.jpeg": "/personalporfoliowebsite/static/media/twitterclone-progressive.d0d89b419a37d14c6ab0.jpeg",
+    "static/media/todoapp-progressive.jpeg": "/personalporfoliowebsite/static/media/todoapp-progressive.fb8d0bb7738904a32ff7.jpeg",
+    "index.html": "/personalporfoliowebsite/index.html",
+    "main.29fffd73.css.map": "/personalporfoliowebsite/static/css/main.29fffd73.css.map",
+    "main.b644999a.js.map": "/personalporfoliowebsite/static/js/main.b644999a.js.map",
+    "787.e438c82f.chunk.js.map": "/personalporfoliowebsite/static/js/787.e438c82f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c56e7609.css",
-    "static/js/main.3ac90396.js"
+    "static/css/main.29fffd73.css",
+    "static/js/main.b644999a.js"
   ]
 }
