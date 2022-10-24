@@ -29,9 +29,9 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    height: 100%;
     padding: 1.5rem;
     gap: 1rem;
+    font-size: 0.7rem;
 }
 
 .skills-collumns {
@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1rem;
     box-sizing: border-box;
     gap: 1rem;
 }
@@ -74,13 +74,11 @@
 
     .service-box {
         width: 46vw;
-        height: 30vw;
         font-size: 1rem;
     }
 
     .skills-box {
         width: 34vw;
-        height: 17vw;
     }
 
     .service-section-container {
@@ -99,7 +97,6 @@
 @media (max-width: 375px) {
    .service-box {
         width: 75vw;
-        height: 79vw;
     }
 
     .service-section-container {
@@ -110,7 +107,6 @@
 @media (min-width: 1000px) {
     .service-box {
         width: 37vw;
-        height: 21vw;
     }
 
     .skills-box {

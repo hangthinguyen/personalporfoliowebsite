@@ -37,7 +37,7 @@
 
 .skills-section-directed-btn {
     background-color: #c67df3;
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 1rem;
     margin: 0.5em;
     border-radius: 2rem;
     border: none;
@@ -59,8 +59,8 @@
 }
 
 .pic-background1 {
-    height: 50vw;
-    width: 50vw;
+    height: 40vw;
+    width: 40vw;
     background-color: rgb(238, 165, 177, 0.5);
     border-radius: 2rem;
     transform: rotate(22deg);
@@ -71,8 +71,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vw;
-    width: 50vw;
+    height: 40vw;
+    width: 40vw;
     border-radius: 2rem;
     transform: rotate(22deg);
     background-color: rgb(186, 225, 249, 0.6);
@@ -107,5 +107,10 @@
 
     .introduction-header {
         font-size: 1.4rem;
+    }
+
+    .skills-section-directed-btn {
+        padding: 0.8rem 2.5rem;
+        font-size: 1.3rem;
     }
 }

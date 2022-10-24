@@ -24,7 +24,7 @@ export default function About() {
                         <p>I am a web developer. I would love to bring your design into life, turn it into a gorgeous and functional website. I value honesty and empathy. These principles guide me through life and work.</p>
                         <Link to='/Services'>
                             <button className='skills-section-directed-btn'>
-                                Check out my skills
+                                My skills
                             </button>
                         </Link>
                     </div>
